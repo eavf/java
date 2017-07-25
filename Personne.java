@@ -9,13 +9,17 @@ public class Personne {
 	/*Cislo osoby*/
 	private int numero;	
 	/*Pocet osob v instanciach triedy*/
-	private static int numInstances = initCompteur (); 
+	private static int numInstance = initCompteur (); 
 
 	public Personne ()
 	{
 		nom = "";
 		prenom = "";
 		date_nais = null;
+		/*Vytvorenie novej osoby = zvysenie poctu osob*/
+		numInstance++;
+		/*priradenie noveho cisla osobe*/
+		numero = numInstance;
 	}
 
 	public Personne (String n, String p, GregorianCalendar d)
@@ -24,9 +28,9 @@ public class Personne {
 		prenom = p;
 		date_nais = d;
 		/*Vytvorenie novej osoby = zvysenie poctu osob*/
-		numInstances++;
+		numInstance++;
 		/*priradenie noveho cisla osobe*/
-		numero = numInstances;
+		numero = numInstance;
 	}
 
 	/*Metoda na inicializaciu poctu instancii*/
@@ -43,7 +47,7 @@ public class Personne {
 	/*Metoda na vratenie celkoveho poctu osob.....*/
 	public static int getNbInstances ()
 	{
-		return numInstances;
+		return numInstance;
 	}
 
 	/*Metoda na vratenie cisla aktualnej osoby*/
@@ -116,8 +120,11 @@ public class Personne {
 	    this.prenom = prenom.toLowerCase();
 	}
 
+	@Override
 	protected void finalize() throws Throwable
 	{
+		System.out.print("\u2020");
+		super.finalize();
 	}
 
 }
