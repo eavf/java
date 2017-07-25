@@ -1,0 +1,519 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pri",
+				"priezvisko"
+			],
+			[
+				"zn",
+				"znamka"
+			],
+			[
+				"get",
+				"getname"
+			],
+			[
+				"p_s",
+				"p_sisky"
+			],
+			[
+				"pr",
+				"pr_vaha"
+			],
+			[
+				"p_",
+				"pr_vaha"
+			],
+			[
+				"pr_",
+				"pr_vyska"
+			],
+			[
+				"apt",
+				"apt-list"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "MaClasse.java",
+			"settings":
+			{
+				"buffer_size": 315,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ManStr.java",
+			"settings":
+			{
+				"buffer_size": 804,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Slucky.java",
+			"settings":
+			{
+				"buffer_size": 602,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Personne.java",
+			"settings":
+			{
+				"buffer_size": 2386,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 92.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Git: Init"
+			],
+			[
+				"pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: java.util."
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 461.0,
+		"history":
+		[
+			"find iostream",
+			"cat iostream",
+			"iostream"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/vovo/java"
+	],
+	"file_history":
+	[
+		"/home/vovo/.config/sublime-text-3/Packages/Git.sublime-settings",
+		"/home/vovo/www/Frankophonie/js/jquery.prettyPhoto.js",
+		"/home/vovo/www/Frankophonie/application/views/stale/footer.php",
+		"/home/vovo/www/Frankophonie/typography.html",
+		"/home/vovo/www/Frankophonie/css/style.css",
+		"/home/vovo/www/Frankophonie/application/views/phot.php",
+		"/home/vovo/www/Frankophonie/application/libraries/Menu.php",
+		"/home/vovo/www/Frankophonie/application/controllers/Pages.php",
+		"/home/vovo/www/Frankophonie/js/jquery.prettyPhotobck.js",
+		"/home/vovo/www/SKPRES/application/controllers/Pages.php",
+		"/home/vovo/www/SKPRES/application/views/rokovacky.php",
+		"/home/vovo/www/Frankophonie/application/views/heb.php",
+		"/home/vovo/www/Frankophonie/application/views/prg.php",
+		"/home/vovo/www/Frankophonie/application/views/contact.php",
+		"/home/vovo/www/Frankophonie/application/views/etst.php",
+		"/home/vovo/www/Frankophonie/js/jquery.ui.map.min.js",
+		"/home/vovo/www/Frankophonie/application/views/index_revslider.php",
+		"/home/vovo/www/Frankophonie/application/views/stale/etat.php",
+		"/home/vovo/www/Frankophonie/application/views/stale/header_stat.php",
+		"/home/vovo/www/Frankophonie/application/views/stale/login_view.php",
+		"/home/vovo/www/Frankophonie/application/views/stale/form.php",
+		"/home/vovo/www/Frankophonie/application/models/Team.php",
+		"/home/vovo/www/Frankophonie/application/views/stale/header.php",
+		"/home/vovo/www/Frankophonie/application/views/stale/breadcrumb.php",
+		"/home/vovo/www/Frankophonie/application/config/autoload.php",
+		"/home/vovo/www/Frankophonie/ftpsync.settings",
+		"/home/vovo/www/Frankophonie/application/views/prgbck.php",
+		"/home/vovo/www/Frankophonie/application/views/index_prg.php",
+		"/home/vovo/www/Frankophonie/application/models/Login_database.php",
+		"/home/vovo/www/Frankophonie/application/views/stale/left_menu.php",
+		"/home/vovo/www/Frankophonie/application/views/stale/breadcrumbbck.php",
+		"/home/vovo/www/Frankophonie/application/views/SKPRES.php",
+		"/home/vovo/www/Frankophonie/css/flexslider.css",
+		"/home/vovo/www/Frankophonie/application/controllers/User_authentication.php",
+		"/home/vovo/www/Frankophonie/application/views/blurb.php",
+		"/home/vovo/www/SKPRES/application/views/global/firstcolumn.php",
+		"/home/vovo/www/SKPRES/application/views/global/prefooter.php",
+		"/home/vovo/www/SKPRES/application/views/global/header_revslider.php",
+		"/home/vovo/www/SKPRES/application/views/index_revslider.php",
+		"/home/vovo/www/SKPRES/application/views/ubytko_view.php",
+		"/home/vovo/www/SKPRES/application/views/index.php",
+		"/home/vovo/www/SKPRES/application/views/main.php",
+		"/home/vovo/www/SKPRES/application/views/JSONAJAX.php",
+		"/home/vovo/www/Frankophonie/js/scripts.js",
+		"/home/vovo/www/Frankophonie/application/views/stale/hlava.php",
+		"/home/vovo/www/Frankophonie/application/views/first_body.php",
+		"/home/vovo/www/Frankophonie/index.html",
+		"/home/vovo/www/Frankophonie/contact.html",
+		"/home/vovo/www/Frankophonie/js/jquery-1.10.2.min.js",
+		"/home/vovo/www/Frankophonie/css/bootstrap.min.css",
+		"/home/vovo/www/Frankophonie/sftp-config.json",
+		"/usr/include/c++/4.9/istream",
+		"/usr/include/c++/4.9/ios",
+		"/usr/include/c++/4.9/ostream",
+		"/usr/include/x86_64-linux-gnu/c++/4.9/bits/c++config.h",
+		"/usr/include/c++/4.9/iostream",
+		"/usr/include/string.h",
+		"/usr/include/c++/4.9/cstring",
+		"/home/vovo/C++/PRPC4-1-string.cpp",
+		"/home/vovo/C++/pokusukaz.cpp",
+		"/home/vovo/C++/newdynstruct.cpp",
+		"/home/vovo/C++/ptrstr.cpp",
+		"/home/vovo/C++/addprtns.cpp",
+		"/home/vovo/aktual.sh",
+		"/home/vovo/Linuxprginterface/proc/mem_segments.c",
+		"/usr/include/c++/4.9/bits/ios_base.h",
+		"/home/vovo/C++/arraynew.cpp",
+		"/home/vovo/C++/use_new.cpp",
+		"/home/vovo/C++/init_ptr.cpp",
+		"/home/vovo/C++/adresy.cpp",
+		"/home/vovo/C++/pointer.cpp",
+		"/home/vovo/C++/convers_skus.cpp",
+		"/home/vovo/C++/konverzia.cpp",
+		"/home/vovo/C++/modulus.cpp",
+		"/home/vovo/C++/delenie.cpp",
+		"/home/vovo/C++/arith.cpp",
+		"/home/vovo/C++/fltadd.cpp",
+		"/home/vovo/C++/float.cpp",
+		"/home/vovo/arduino-1.6.5-r5/hardware/tools/avr/lib/gcc/avr/4.8.1/plugin/include/config.h",
+		"/home/vovo/Downloads/xc16-v1.31-full-install-linux-installer.run",
+		"/home/vovo/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/vovo/www/Frankophonie",
+			"/home/vovo/www/SKPRES",
+			"/home/vovo/www/Frankophonie",
+			"/home/vovo/www/Frankophonie/js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<img id=\"fullResImage\" src=\"{path}\" />",
+			"image_markup: '<img id=\"fullResImage\" src=\"{path}\" />",
+			"image_markup: '<img id=\"fullResImage\" src=\"{path}\" />',",
+			"{pp_social} <a class=\"pp_close\" href=\"#\">Close</a>",
+			"{pp_social} \n<a class=\"pp_close\" href=\"#\">Close</a>",
+			"{pp_social} \n<a class=\"pp_close\" href=\"#\">Close</a> ",
+			"<a class=\"pp_close\" href=\"#\">Close</a>",
+			"{pp_social}",
+			"jquery.prettyPhoto.js",
+			".images",
+			"unstyled",
+			".images li ",
+			".images li { margin-right: 15px; width: auto; }",
+			"div class=thumb",
+			"div class thumb",
+			"thumb",
+			"images",
+			"col-sm-3 images",
+			"col-sm-12 images",
+			"images",
+			"rokovackystat",
+			"rokov",
+			"map_canvas",
+			"reg_succesful",
+			"reg_succesful\n",
+			"is_logged_in",
+			"stat",
+			"regmail",
+			"get_hmenu",
+			"poslimail",
+			"read_user_information",
+			"mail",
+			"email",
+			"maps.google.com",
+			"https://maps.google.com/maps/",
+			"getPreventDefault()",
+			"cin",
+			"__THROW __attribute_pure__",
+			"strlen",
+			"iostream"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "MaClasse.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								315,
+								315
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ManStr.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 804,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Slucky.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Personne.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								587,
+								587
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 77.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 186.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "java.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
