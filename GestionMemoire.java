@@ -2,7 +2,7 @@ import java.util.GregorianCalendar;
 
 public class GestionMemoire
 {
-	public statis void main (String [] args) throws InterruptedException
+	public static void main (String [] args) throws InterruptedException
 	{
 		double total;
 		double reste;
@@ -20,11 +20,11 @@ public class GestionMemoire
 		}
 	}
 
-	public static void creationaTbleau ()
+	public static void creationTableau ()
 	{
 		Personne [] tablo;
 		tablo = new Personne[1000];
-		for (i = 0; i<1000;i++)
+		for (int i = 0; i<1000;i++)
 		{
 			tablo[i] = new Personne("Dupont", "albert", new GregorianCalendar(1956,12,13));
 		}
