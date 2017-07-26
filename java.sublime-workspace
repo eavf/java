@@ -83,7 +83,11 @@
 	"build_varint": "",
 	"command_palette":
 	{
+<<<<<<< HEAD
 		"height": 92.0,
+=======
+		"height": 392.0,
+>>>>>>> 70caf06b3915eee7582f5ffbd542895d90b169aa
 		"last_filter": "",
 		"selected_items":
 		[
@@ -112,7 +116,11 @@
 				"Package Control: Install Package"
 			]
 		],
+<<<<<<< HEAD
 		"width": 449.0
+=======
+		"width": 458.0
+>>>>>>> 70caf06b3915eee7582f5ffbd542895d90b169aa
 	},
 	"console":
 	{
@@ -139,7 +147,10 @@
 	],
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/home/vovo/.config/sublime-text-3/Packages/Git.sublime-settings",
+=======
+>>>>>>> 70caf06b3915eee7582f5ffbd542895d90b169aa
 		"/home/vovo/www/Frankophonie/js/jquery.prettyPhoto.js",
 		"/home/vovo/www/Frankophonie/application/views/stale/footer.php",
 		"/home/vovo/www/Frankophonie/typography.html",
