@@ -3,30 +3,24 @@ import java.util.GregorianCalendar;
 
 public class Personne {
 
-	private String nom = "noiuveaunom";
+	private String nom = "nouveaunom";
 	private String prenom = "nouveauprenom";
 	private GregorianCalendar date_nais = new GregorianCalendar(1900,01,01);
 	/*Cislo osoby*/
 	private int numero;	
 	/*Pocet osob v instanciach triedy*/
-<<<<<<< HEAD
 	private static int numInstance = initCompteur (); 
-=======
-	private static int numInstances = initCompteur (); 
->>>>>>> 70caf06b3915eee7582f5ffbd542895d90b169aa
 
 	public Personne ()
 	{
 		nom = "";
 		prenom = "";
 		date_nais = null;
-<<<<<<< HEAD
 		/*Vytvorenie novej osoby = zvysenie poctu osob*/
 		numInstance++;
 		/*priradenie noveho cisla osobe*/
 		numero = numInstance;
-=======
->>>>>>> 70caf06b3915eee7582f5ffbd542895d90b169aa
+		//System.out.println("Ahoj from personne.....");
 	}
 
 	public Personne (String n, String p, GregorianCalendar d)
@@ -35,24 +29,21 @@ public class Personne {
 		prenom = p;
 		date_nais = d;
 		/*Vytvorenie novej osoby = zvysenie poctu osob*/
-<<<<<<< HEAD
 		numInstance++;
 		/*priradenie noveho cisla osobe*/
 		numero = numInstance;
-=======
-		numInstances++;
-		/*priradenie noveho cisla osobe*/
-		numero = numInstances;
->>>>>>> 70caf06b3915eee7582f5ffbd542895d90b169aa
+		//System.out.println("Ahoj from personne.....");
 	}
 
 	/*Metoda na inicializaciu poctu instancii*/
 	private static int initCompteur ()
 	{
 		int cpt = 0;
+		//System.out.println("Ahoj from personne/initcompteur.....");
 		while (cpt<1000)
 		{
-			cpt = (int) (1000*Math.random());
+			cpt = (int) (10000*Math.random());
+			//System.out.println("cislo je : " + cpt);
 		}
 		return cpt;
 	}
@@ -60,11 +51,7 @@ public class Personne {
 	/*Metoda na vratenie celkoveho poctu osob.....*/
 	public static int getNbInstances ()
 	{
-<<<<<<< HEAD
 		return numInstance;
-=======
-		return numInstances;
->>>>>>> 70caf06b3915eee7582f5ffbd542895d90b169aa
 	}
 
 	/*Metoda na vratenie cisla aktualnej osoby*/
@@ -137,16 +124,11 @@ public class Personne {
 	    this.prenom = prenom.toLowerCase();
 	}
 
-<<<<<<< HEAD
 	@Override
 	protected void finalize() throws Throwable
 	{
 		System.out.print("\u2020");
 		super.finalize();
-=======
-	protected void finalize() throws Throwable
-	{
->>>>>>> 70caf06b3915eee7582f5ffbd542895d90b169aa
 	}
 
 }
