@@ -20,7 +20,7 @@ public class GestionMemoire
 		}
 	}
 
-	public static void creationableau ()
+	public static void creationaTbleau ()
 	{
 		Personne [] tablo;
 		tablo = new Personne[1000];
