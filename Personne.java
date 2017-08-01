@@ -1,7 +1,10 @@
 
 import java.util.GregorianCalendar;
+import java.util.Arrays;
 
-public class Personne {
+public class Personne implements Classable
+
+{
 
 	private String nom = "nouveaunom";
 	private String prenom = "nouveauprenom";
@@ -69,7 +72,7 @@ public class Personne {
 	public long calculAge ()
 	{
 		long age;
-		date_nais = new GregorianCalendar (1963,11,29);
+		//date_nais = new GregorianCalendar (1963,11,29);
 		age = new GregorianCalendar().getTimeInMillis()-date_nais.getTimeInMillis();
 		age = age/1000/60/60/24/365;
 		return age;
@@ -130,5 +133,40 @@ public class Personne {
 		System.out.print("\u2020");
 		super.finalize();
 	}
+
+	public String toString()
+	{
+		String chaine;
+		chaine = "Nom : " + getNom() + "\r\n";
+		chaine = chaine + "Prénom : " + getPrenom();
+		return chaine;
+	}
+
+	public int compare (Object o)
+	{
+		Personne p;
+		//Najprv sa pozrieme na to, či je možné porovnanie...
+		if (o instanceof Personne)
+		{
+			p = (Personne)o;
+		}
+		else
+		{
+			return Classable.ERREUR;
+		}
+
+		if (getNom().compareTo(p.getNom())<0)
+			{
+				return Classable.INFERIEUR;
+			}
+		if (getNom().compareTo(p.getNom())>0)
+			{
+				return Classable.SUPERIEUR;
+			}
+		return Classable.EGAL;
+	} 
+
+
+
 
 }
