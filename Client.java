@@ -93,6 +93,14 @@ public class Client extends Personne
 		}
 	}
 
+	public String toString()
+	{
+		String chaine;
+		
+		chaine = super.toString() + "\r\n" + "Type de client : " + getType();
+		return chaine;
+	}
+
 	public int hashCode()
 	{
 		return this.getNom().hashCode() + this.getPrenom().hashCode() + this.getDate_nais().hashCode() + (int) this.getType();

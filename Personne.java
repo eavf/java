@@ -1,6 +1,5 @@
 
 import java.util.GregorianCalendar;
-import java.util.Arrays;
 
 public class Personne implements Classable
 
@@ -165,8 +164,4 @@ public class Personne implements Classable
 			}
 		return Classable.EGAL;
 	} 
-
-
-
-
 }
